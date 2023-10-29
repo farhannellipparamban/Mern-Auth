@@ -1,0 +1,21 @@
+/* CSS file */
+.password-strength {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: rgba(245, 239, 239, 0.925);
+  border-radius: 5px;
+}
+
+.strength-rule {
+  margin-top: 5px;
+  font-size: 14px;
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  color: red; /* Default text color */
+}
+
+.strength-rule.valid {
+  color: green; /* Green text color for valid rules */
+}
